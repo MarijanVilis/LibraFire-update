@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 
-describe('Homepage', () => {
+describe('Our story', () => {
 
 
     beforeEach(() => {

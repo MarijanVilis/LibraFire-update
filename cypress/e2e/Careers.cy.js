@@ -1,16 +1,16 @@
 /// <reference types="cypress" />
 
 
-describe('Our process', () => {
+describe('Careers', () => {
 
 
     beforeEach(() => {
-      cy.visit('https://devlf.com/lfwebsite-update/our-story/our-process/')}
+      cy.visit('https://devlf.com/lfwebsite-update/careers/')}
       
     )
      
     it('Check if the title is correct', () => {
-      cy.title().should('eq', 'Our process - LibraFire - how we work - project-life-cycle')
+      cy.title().should('eq', 'LibraFire - Careers')
     });
   
     it('Check the status of internal links on the page', () => {

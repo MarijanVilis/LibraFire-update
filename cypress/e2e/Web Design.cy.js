@@ -5,12 +5,12 @@ describe('Services', () => {
 
 
     beforeEach(() => {
-      cy.visit('https://www.librafire.com/services/')}
+      cy.visit('https://www.librafire.com/services/web-design/')}
       
     )
      
     it('Check if the title is correct', () => {
-      cy.title().should('eq', 'Services-LibraFire')
+      cy.title().should('eq', 'Web Design-LibraFire offers WordPress, Drupal, and eCommerce design')
     });
   
     it('Check the status of internal links on the page', () => {
@@ -21,8 +21,7 @@ describe('Services', () => {
           });
         }
       });
-    });
-  
+    }); 
   
   })
   

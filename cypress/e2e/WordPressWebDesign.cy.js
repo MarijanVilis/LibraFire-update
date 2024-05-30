@@ -5,12 +5,12 @@ describe('Services', () => {
 
 
     beforeEach(() => {
-      cy.visit('https://www.librafire.com/services/')}
+      cy.visit('https://www.librafire.com/services/web-design/wordpress-web-design/')}
       
     )
      
     it('Check if the title is correct', () => {
-      cy.title().should('eq', 'Services-LibraFire')
+      cy.title().should('eq', 'WordPress Web Design-Libra fire provides excellent WordPress design')
     });
   
     it('Check the status of internal links on the page', () => {

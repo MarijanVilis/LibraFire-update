@@ -5,7 +5,7 @@ describe('Partners', () => {
 
 
     beforeEach(() => {
-      cy.visit('https://devlf.com/lfwebsite-update/our-story/partners/')}
+      cy.visit('https://www.librafire.com/our-story/partners')}
       
     )
      
